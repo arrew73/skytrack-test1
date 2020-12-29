@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+.body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+.line {
+  width: 80%;
+}
+.container {
+  margin: auto;
+  width: 80%;
+}
+.head .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.head .container div:not(:last-child) {
+  margin-right: 15px;
+}
+.head .container .head__logo {
+  flex-basis: 10%;
+  background: #775f5f;
+}
+.head .container .head__info {
+  flex-basis: 40%;
+  background: #616d67;
+}
+.head .container .head__info2 {
+  flex-basis: 50%;
+  background: #616d67;
+  text-align: right;
+}
+.head .container .head__info2 li {
+  color: white;
+  margin-right: 20px;
+  list-style-type: none;
+}
+.head .container .head__info2 a {
+  color: white;
+}
+.main__content {
+  display: flex;
+  justify-content: space-between;
+}
+.content__left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 12%;
+}
+.content__left__info,
+.content__left__info2 {
+  padding: 15px;
+  background: #616d67;
+}
+.content__left__info2 {
+  height: 100px;
+}
+.content__center {
+  width: 87%;
+}
+.content__center__heading {
+  background: #DCDCDC;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.content__center__images {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content__center__images .images__item {
+  flex-basis: 15%;
+  margin-bottom: 20px;
+  height: 150px;
+  overflow: hidden;
+  background: #DCDCDC;
+}
+.content__center__info-blocks {
+  display: flex;
+}
+.content__center__info-blocks .info-blocks__block1 {
+  margin-right: 20px;
+}
+.content__center__info-blocks .info-blocks__block1,
+.content__center__info-blocks .info-blocks__block2 {
+  padding: 20px;
+  flex-basis: 50%;
+  background: #DCDCDC;
+}
+.footer .container {
+  display: flex;
+}
+.footer .container .footer__points-block,
+.footer .container .footer__list {
+  margin-right: 20px;
+  color: white;
+  width: 35%;
+  background: #777777;
+}
+.footer .container .footer__points-block {
+  display: flex;
+}
+.footer .container .footer__points-block div {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.footer .container .footer__blocks {
+  width: 35%;
+}
+.footer .container .footer__blocks div {
+  height: 87px;
+  background: #777777;
+}
